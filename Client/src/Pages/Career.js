@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../assets/company-logo.png";
 import Image from "../assets/career-mid-img.png";
 import SearchArea from "../Components/searchArea";
@@ -6,6 +6,12 @@ import "./Style.css";
 import Footer from "../Components/Footer";
 
 const Career = () => {
+  const [jobList ,setJobList]=useState()
+
+  const requestBody = {
+    
+  }
+
   return (
     <div className="Career-page">
       <nav className="Career-Nav">
